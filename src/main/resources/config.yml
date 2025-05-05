@@ -1,0 +1,3 @@
+protection-time-minutes: 720
+protection-message: "&aYou are under newbie protection for %minutes% more minutes!"
+attack-blocked-message: "&cYou cannot fight while protected!"

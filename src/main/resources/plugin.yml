@@ -1,0 +1,25 @@
+name: NewbieProtection
+version: 1.1
+main: com.georg.newbieprotection.NewbieProtection
+api-version: 1.20
+author: georg
+description: a very simple newbie protection plugin
+
+
+
+commands:
+  newbie:
+    description: Manage your newbie protection
+    usage: /<command> [disable|enable|reset]
+    permission: ""
+  protectiontime:
+    description: Check remaining newbie protection time
+    usage: /<command>
+    permission: ""
+
+
+permissions:
+  newbie.admin:
+    description: Admin commands for newbie protection
+    default: op
+

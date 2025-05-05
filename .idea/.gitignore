@@ -1,0 +1,29 @@
+# java class files
+*.class
+
+# jar files
+*.jar
+
+# intelliJ project files
+.idea/
+*.iml
+*.iws
+
+# build output
+build/
+out/
+tmp/
+libs/
+
+# gradle cache and files
+.gradle/
+**/*.log
+**/*.bin
+**/*.lock
+**/*.tmp
+
+# os files
+.DS_Store
+Thumbs.db
+
+!gradle/wrapper/gradle-wrapper.jar
